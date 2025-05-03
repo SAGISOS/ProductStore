@@ -1,49 +1,52 @@
-.library-section {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.library-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.library-caption {
-  margin-top: 10px;
-  font-style: italic;
-  color: #555;
-}
-
 .home-container {
-  max-width: 800px;
-  margin: 60px auto;
-  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.7;
   color: #333;
-  background-color: #fafafa;
-  border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
 }
 
 .home-title {
   text-align: center;
-  font-size: 2rem;
-  margin-bottom: 30px;
-  color: #1a202c;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #222;
 }
 
-.home-paragraph {
-  margin-bottom: 20px;
-  font-size: 1.05rem;
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.text-section {
+  flex: 1 1 500px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.image-section {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.library-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.library-caption {
+  margin-top: 0.8rem;
+  font-style: italic;
+  color: #666;
 }
 
 .home-signature {
-  font-style: italic;
-  font-weight: 500;
-  margin-top: 40px;
+  font-weight: bold;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #444;
   text-align: right;
-  color: #666;
 }
