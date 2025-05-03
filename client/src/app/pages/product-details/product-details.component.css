@@ -1,0 +1,31 @@
+.product-details-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+  direction: rtl; /* אם אתה רוצה לשלב עברית בעתיד */
+}
+
+.product-image {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+  flex: 1;
+  font-family: Arial, sans-serif;
+}
+
+.product-info h2 {
+  margin-top: 0;
+  font-size: 2rem;
+  color: #333;
+}
+
+.product-info p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #555;
+}

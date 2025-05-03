@@ -5,6 +5,7 @@ import { RegisterComponent } from './pages/register/register.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { AdminGuard } from './core/guards/admin.guard';
+import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -30,7 +31,10 @@ export const routes: Routes = [
     canActivate: [AdminGuard]
   },
 
-  // ✅ מסך עריכת פרופיל
+  {
+    path: 'products/:id',
+    loadComponent: () => import('./pages/product-details/product-details.component').then(m => m.ProductDetailsComponent)
+  },
   {
     path: 'profile-edit',
     loadComponent: () =>

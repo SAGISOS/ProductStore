@@ -1,51 +1,25 @@
-<div class="login-container">
-  <h2>הרשמה</h2>
-  <form (ngSubmit)="onSubmit()" #form="ngForm">
-    <label for="userName">שם משתמש</label>
-    <input
-      type="text"
-      id="userName"
-      [(ngModel)]="userName"
-      name="userName"
-      required
-    />
+<div class="login-page">
+  <div class="login-container">
+    <h2>הרשמה</h2>
+    <form (ngSubmit)="onSubmit()" #form="ngForm">
+      <label for="userName">שם משתמש</label>
+      <input type="text" id="userName" [(ngModel)]="userName" name="userName" required />
 
-    <label for="password">סיסמה</label>
-    <input
-      type="password"
-      id="password"
-      [(ngModel)]="password"
-      name="password"
-      required
-    />
+      <label for="password">סיסמה</label>
+      <input type="password" id="password" [(ngModel)]="password" name="password" required />
 
-    <label for="Email">אימייל</label>
-    <input
-      type="Email"
-      id="Email"
-      [(ngModel)]="Email"
-      name="Email"
-      required
-    />
+      <label for="Email">אימייל</label>
+      <input type="Email" id="Email" [(ngModel)]="Email" name="Email" required />
 
-    <label for="Phone">טלפון</label>
-    <input
-      type="text"
-      id="Phone"
-      [(ngModel)]="Phone"
-      name="Phone"
-      required
-    />
+      <label for="Phone">טלפון</label>
+      <input type="text" id="Phone" [(ngModel)]="Phone" name="Phone" required />
 
-    <label>
-      <input
-        type="checkbox"
-        [(ngModel)]="IsAdmin"
-        name="IsAdmin"
-      />
-      מנהל?
-    </label>
+      <label>
+        <input type="checkbox" [(ngModel)]="IsAdmin" name="IsAdmin" />
+        מנהל?
+      </label>
 
-    <button type="submit" [disabled]="form.invalid">הרשמה</button>
-  </form>
+      <button type="submit" [disabled]="form.invalid">הרשמה</button>
+    </form>
+  </div>
 </div>

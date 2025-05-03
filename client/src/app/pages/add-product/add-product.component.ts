@@ -16,7 +16,8 @@ export class AddProductComponent {
     name: '',
     description: '',
     price: 0,
-    stock: 0
+    stock: 0,
+    imageUrl: ''
   };
 
   constructor(private productService: ProductService) {}
@@ -25,7 +26,7 @@ export class AddProductComponent {
     this.productService.addProduct(this.product).subscribe({
       next: () => {
         alert('Product added successfully');
-        this.product = { id: 0, name: '', description: '', price: 0, stock: 0 };
+        this.product = { id: 0, name: '', description: '', price: 0, stock: 0, imageUrl: '' };
       },
       error: err => {
         console.error('Failed to add product', err);

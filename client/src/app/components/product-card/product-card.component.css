@@ -8,6 +8,13 @@
   font-family: Arial, sans-serif;
   transition: transform 0.2s ease;
 }
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
 
 .product-card:hover {
   transform: scale(1.02);
@@ -23,6 +30,15 @@
   font-size: 0.95rem;
   color: #555;
   margin: 0.5rem 0;
+  direction: rtl;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* מספר שורות לפני חיתוך */
+  -webkit-box-orient: vertical;
+  max-height: 6.5em;
+  word-break: break-word; /* למניעת גלישת טקסט יוצאת דופן */
 }
 
 .product-card .price {
@@ -47,4 +63,21 @@
 
 .small-button:hover {
   background-color: #e0a800;
+}
+
+
+.delete-button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.delete-button:hover {
+  transform: scale(1.1);
 }

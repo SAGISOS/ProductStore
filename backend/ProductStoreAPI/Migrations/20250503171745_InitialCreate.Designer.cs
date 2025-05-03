@@ -11,7 +11,7 @@ using ProductStoreAPI.Data;
 namespace ProductStoreAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250430220736_InitialCreate")]
+    [Migration("20250503171745_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -33,6 +33,10 @@ namespace ProductStoreAPI.Migrations
                     MySqlPropertyBuilderExtensions.UseMySqlIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("ImageUrl")
                         .IsRequired()
                         .HasColumnType("longtext");
 

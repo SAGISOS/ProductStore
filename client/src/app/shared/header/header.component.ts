@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { AuthService } from '../../core/services/auth.service';
@@ -8,7 +8,8 @@ import { AuthService } from '../../core/services/auth.service';
   standalone: true,
   imports: [CommonModule, RouterModule],
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA] 
 })
 export class HeaderComponent implements OnInit {
   userName: string | null = null;

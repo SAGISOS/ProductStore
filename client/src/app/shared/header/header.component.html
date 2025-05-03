@@ -9,9 +9,20 @@
     <ng-container *ngIf="userName; else guest">
       <span class="welcome-text">Hello, {{ userName }}</span>
 
-      <button class="profile-button" routerLink="/profile-edit" routerLinkActive="active">Profile</button>
+      <!-- Profile Icon -->
+      <a routerLink="/profile-edit" routerLinkActive="active" class="icon-button" title="Profile">
+        <lord-icon
+          src="assets/system-solid-8-account-hover-account.json"
+          trigger="hover"
+          style="width:32px;height:32px">
+        </lord-icon>
+      </a>
+
       <button class="logout-button" (click)="logout()">Logout</button>
     </ng-container>
+
+
+
 
     <ng-template #guest>
       <span class="welcome-text">Hello, Guest</span>

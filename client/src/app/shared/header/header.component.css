@@ -94,7 +94,7 @@
 
 .menu-admin-button {
   background-color: transparent;
-  color: #922da1;
+  color: #cc85d7;
   font-weight: 700;
   font-size: 1.05rem;
   border: none;
@@ -138,3 +138,5 @@
 .profile-button:hover {
   background-color: #6b46c1;
 }
+
+

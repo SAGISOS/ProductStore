@@ -1,7 +1,13 @@
 .products-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 1.5rem;
-  justify-content: center;
   padding: 2rem;
+  justify-items: center;
+}
+
+.product-card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
 }

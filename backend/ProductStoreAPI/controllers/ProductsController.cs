@@ -48,6 +48,7 @@ public class ProductsController : ControllerBase
         return NoContent();
     }
 
+
     // יצירת מוצר חדש - רק למנהל
     [HttpPost]
     [Authorize(Policy = "Admin")]
@@ -56,6 +57,13 @@ public class ProductsController : ControllerBase
         if (!ModelState.IsValid)
             return BadRequest(ModelState);
 
+        // הגדרת URL ברירת מחדל אם לא נשלח
+        if (string.IsNullOrWhiteSpace(product.ImageUrl))
+        {
+            product.ImageUrl = "https://islandpress.org/files/default_book_cover_2015.jpg";
+        }
+
+        Console.WriteLine("ImageUrl received: " + product.ImageUrl);
         _context.Products.Add(product);
         _context.SaveChanges();
 
@@ -65,7 +73,7 @@ public class ProductsController : ControllerBase
     // עדכון מוצר - רק למנהל
     [HttpPut("{id}")]
     [Authorize(Policy = "Admin")]
-    public IActionResult Update(int id, Product updatedProduct)
+    public IActionResult Update(int id, [FromBody] Product updatedProduct)
     {
         var product = _context.Products.Find(id);
         if (product == null)
@@ -75,6 +83,7 @@ public class ProductsController : ControllerBase
         product.Description = updatedProduct.Description;
         product.Price = updatedProduct.Price;
         product.Stock = updatedProduct.Stock;
+        product.ImageUrl = updatedProduct.ImageUrl;
 
         _context.SaveChanges();
         return NoContent();
