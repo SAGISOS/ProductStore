@@ -25,7 +25,7 @@ public class UsersController : ControllerBase
     [AllowAnonymous]
     public IActionResult Login([FromBody] LoginModel model)
     {
-        var user = _context.Users.FirstOrDefault(u => 
+        var user = _context.Users.FirstOrDefault(u =>
             u.UserName == model.UserName && u.Password == model.Password);
 
         if (user == null)
@@ -34,7 +34,7 @@ public class UsersController : ControllerBase
         var token = GenerateJwtToken(user);
         return Ok(new { token });
     }
-    
+
     // קבלת כל המשתמשים - רק למנהל
     [HttpGet]
     [Authorize(Policy = "Admin")]
@@ -51,7 +51,7 @@ public class UsersController : ControllerBase
         var user = _context.Users.Find(id);
         if (user == null)
             return NotFound();
-            
+
         return Ok(user);
     }
 
@@ -85,7 +85,7 @@ public class UsersController : ControllerBase
     public IActionResult Update(int id, User updatedUser)
     {
         // בדיקה שהמשתמש מעדכן את עצמו או שהוא מנהל
-        if (!User.HasClaim("IsAdmin", "true") && 
+        if (!User.HasClaim("IsAdmin", "true") &&
             !User.HasClaim(ClaimTypes.NameIdentifier, id.ToString()))
             return Forbid();
 
@@ -96,7 +96,7 @@ public class UsersController : ControllerBase
         user.UserName = updatedUser.UserName;
         user.Email = updatedUser.Email;
         user.Phone = updatedUser.Phone;
-        
+
         // רק מנהל יכול לשנות הרשאות
         if (User.HasClaim("IsAdmin", "true"))
         {
@@ -127,7 +127,7 @@ public class UsersController : ControllerBase
             .FirstOrDefault(u => u.Email == email);
         if (user == null)
             return NotFound();
-            
+
         return Ok(user);
     }
 
@@ -140,9 +140,9 @@ public class UsersController : ControllerBase
             new Claim("IsAdmin", user.IsAdmin.ToString().ToLower())
         };
 
-        var jwtKey = _configuration["Jwt:Key"] ?? 
+        var jwtKey = _configuration["Jwt:Key"] ??
             throw new InvalidOperationException("JWT Key not configured");
-        
+
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
         var expires = DateTime.Now.AddMinutes(
@@ -167,4 +167,4 @@ public class LoginModel
 {
     public required string UserName { get; set; }
     public required string Password { get; set; }
-} 
+}
