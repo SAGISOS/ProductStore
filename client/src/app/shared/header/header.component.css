@@ -1,0 +1,95 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  font-family: Arial, sans-serif;
+  position: relative;
+  min-height: 60px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+
+.menu-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu-right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.welcome-text {
+  font-weight: 500;
+  color: #333;
+  font-size: 1rem;
+}
+
+.logout-button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+.login-button {
+  background-color: #38a169;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.login-button:hover {
+  background-color: #2f855a;
+}
+
+.register-button {
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.register-button:hover {
+  background-color: #2b6cb0;
+}
+
+.menu-button {
+  background-color: transparent;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s ease, color 0.2s ease;
+}
+
+.menu-button:hover {
+  border-bottom: 2px solid #3182ce;
+  color: #3182ce;
+}

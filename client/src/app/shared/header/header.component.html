@@ -1,0 +1,19 @@
+<nav class="header-container">
+  <div class="menu-center">
+    <button class="menu-button" routerLink="/products">Products</button>
+    <button *ngIf="isAdmin" class="menu-button" routerLink="/admin-page">Admin Page</button>
+  </div>
+
+  <div class="menu-right">
+    <ng-container *ngIf="userName; else guest">
+      <span class="welcome-text">Hello, {{ userName }}</span>
+      <button class="logout-button" (click)="logout()">Logout</button>
+    </ng-container>
+
+    <ng-template #guest>
+      <span class="welcome-text">Hello, Guest</span>
+      <button class="login-button" routerLink="/login">Login</button>
+      <button class="register-button" routerLink="/register">Register</button>
+    </ng-template>
+  </div>
+</nav>

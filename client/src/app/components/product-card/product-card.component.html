@@ -1,0 +1,8 @@
+<div class="product-card">
+  <h3>{{ name }}</h3>
+  <p class="description">{{ description }}</p>
+  <p class="price">Price: ${{ price }}</p>
+  <p class="stock">In stock: {{ stock }}</p>
+  <p class="id">Id: {{ id }}</p>
+  <button *ngIf="isAdmin" class="small-button" (click)="onSubmit()">delete</button>
+</div>

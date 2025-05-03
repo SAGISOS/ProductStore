@@ -1,0 +1,50 @@
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  max-width: 250px;
+  font-family: Arial, sans-serif;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.product-card .description {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.product-card .price {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.product-card .stock {
+  color: #28a745;
+}
+
+.small-button {
+  padding: 4px 10px;
+  font-size: 12px;
+  background-color: #ffc107; /* צבע צהוב */
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.small-button:hover {
+  background-color: #e0a800;
+}
