@@ -121,3 +121,20 @@
   color: #111;
   border-bottom: 3px solid #111;
 }
+
+
+.profile-button {
+  background-color: #805ad5;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  text-decoration: none;
+}
+
+.profile-button:hover {
+  background-color: #6b46c1;
+}

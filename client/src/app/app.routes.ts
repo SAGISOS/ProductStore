@@ -4,9 +4,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { AdminComponent } from './pages/admin/admin.component';
-import { AdminPageComponent } from './pages/admin-page/admin-page.component';
 import { AdminGuard } from './core/guards/admin.guard';
-import { AddProductComponent } from './pages/add-product/add-product.component';
 
 export const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -14,6 +12,7 @@ export const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'products', component: ProductsComponent },
   { path: 'admin', component: AdminComponent },
+
   {
     path: 'status-users',
     loadComponent: () => import('./pages/status-users/status-users.component').then(m => m.StatusUsersComponent),
@@ -29,5 +28,12 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/add-product/add-product.component').then(m => m.AddProductComponent),
     canActivate: [AdminGuard]
+  },
+
+  // ✅ מסך עריכת פרופיל
+  {
+    path: 'profile-edit',
+    loadComponent: () =>
+      import('./pages/profile-edit/profile-edit.component').then(m => m.ProfileEditComponent)
   }
 ];

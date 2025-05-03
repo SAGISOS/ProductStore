@@ -8,6 +8,8 @@
   <div class="menu-right">
     <ng-container *ngIf="userName; else guest">
       <span class="welcome-text">Hello, {{ userName }}</span>
+
+      <button class="profile-button" routerLink="/profile-edit" routerLinkActive="active">Profile</button>
       <button class="logout-button" (click)="logout()">Logout</button>
     </ng-container>
 
