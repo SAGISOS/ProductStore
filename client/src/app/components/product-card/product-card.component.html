@@ -1,4 +1,4 @@
-<div class="product-card" (click)="goToDetails($event)">
+<div class="product-card" (click)="openDetails($event)">
   <img [src]="imageUrl" alt="Product Image" class="product-image" />
   <h3>{{ name }}</h3>
   <p class="description">{{ description }}</p>
@@ -9,7 +9,7 @@
   <button
     *ngIf="isAdmin"
     class="delete-button"
-    (click)="onSubmit($event)"
+    (click)="onDelete($event)"
     title="delete"
   >
     <lord-icon
