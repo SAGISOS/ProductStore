@@ -1,5 +1,5 @@
 [נעזרתי בצאט GPT כדי לנסח את מסמך ה readme]
-
+[![Watch the demo](https://img.youtube.com/vi/ICvaLcL_D50/0.jpg)](https://www.youtube.com/watch?v=ICvaLcL_D50&t=5s)
 # 🛠️ ProductStore - Installation & Usage Guide
 
 This guide explains how to set up the ProductStore project (both server and client), synchronize the database using EF Core migrations or backup SQL file, and run everything locally.
