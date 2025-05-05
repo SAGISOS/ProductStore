@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using ProductStoreAPI.Models;
 using ProductStoreAPI.Data;
 using Microsoft.AspNetCore.Authorization;
+using System;
+using System.Linq;
 
 [ApiController]
 [Route("api/[controller]")]
@@ -59,6 +61,23 @@ public class ProductsController : ControllerBase
         if (!ModelState.IsValid)
         {
           return BadRequest(ModelState);
+        }
+
+        // Generate random product ID if it's 0 or not provided
+        if (product.Id == 0)
+        {
+            Random random = new Random();
+            bool isIdUnique = false;
+            int randomId = 0;
+            
+            // Generate a random ID between 1000 and 9999 that doesn't already exist
+            while (!isIdUnique)
+            {
+                randomId = random.Next(1000, 10000);
+                isIdUnique = !_context.Products.Any(p => p.Id == randomId);
+            }
+            
+            product.Id = randomId;
         }
 
         // defult

@@ -1,12 +1,29 @@
-<div class="products-grid">
-  <app-product-card
-    *ngFor="let product of products"
-    [name]="product.name"
-    [description]="product.description"
-    [price]="product.price"
-    [stock]="product.stock"
-    [id]="product.id"
-    [imageUrl]="product.imageUrl"
-    (deleted)="removeProduct($event)">
-  </app-product-card>
+<div class="products-container">
+  <div class="search-container">
+    <input
+      type="text"
+      class="search-input"
+      placeholder="חפש מוצרים..."
+      [(ngModel)]="searchTerm"
+      (input)="searchProducts()"
+    />
+    <button class="clear-search" *ngIf="searchTerm" (click)="clearSearch()">✕</button>
+  </div>
+
+  <div class="products-grid">
+    <app-product-card
+      *ngFor="let product of filteredProducts"
+      [name]="product.name"
+      [description]="product.description"
+      [price]="product.price"
+      [stock]="product.stock"
+      [id]="product.id"
+      [imageUrl]="product.imageUrl"
+      (deleted)="removeProduct($event)">
+    </app-product-card>
+  </div>
+
+  <div class="no-results" *ngIf="filteredProducts.length === 0 && searchTerm">
+    <p>לא נמצאו מוצרים התואמים את החיפוש "{{ searchTerm }}"</p>
+  </div>
 </div>

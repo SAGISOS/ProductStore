@@ -1,24 +1,64 @@
 <div class="online-users-container">
-     <h2>Online Users</h2>
-   
-     <p *ngIf="onlineUsers.length === 0">No users are currently online.</p>
-   
-     <table *ngIf="onlineUsers.length > 0">
-       <thead>
-         <tr>
-           <th>Username</th>
-           <th>Status</th>
-           <th>Connected Since</th>
-         </tr>
-       </thead>
-       <tbody>
-         <tr *ngFor="let user of onlineUsers">
-           <td>{{ user.username }}</td>
-           <td>{{ user.isAdmin ? 'Admin' : 'Regular User' }}</td>
-           <td>{{ formatDateTime(user.connectedAt) }}</td>
-         </tr>
-       </tbody>
-     </table>
-   
-     <button (click)="refreshUsers()">Refresh</button>
-   </div>
+  <div class="header">
+    <h1>Online Users Monitor</h1>
+    <p class="subtitle">view of all connected users</p>
+  </div>
+
+  <div class="content-card">
+    <div class="card-header">
+      <h2>Online Users</h2>
+      <button class="refresh-btn" (click)="refreshUsers()">
+      Refresh
+      </button>
+    </div>
+
+    <div class="no-users" *ngIf="onlineUsers.length === 0">
+      <div class="empty-state">
+        <i class="empty-icon">👥</i>
+        <p>אין משתמשים מחוברים</p>
+        <p class="empty-hint">משתמשים יופיעו כאן כאשר יחברו למערכת</p>
+      </div>
+    </div>
+
+    <table class="users-table" *ngIf="onlineUsers.length > 0">
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Role</th>
+          <th>Connected Since</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let user of onlineUsers">
+          <td>
+            <div class="user-info">
+              <span class="user-avatar">{{ user.username.charAt(0).toUpperCase() }}</span>
+              <span class="username">{{ user.username }}</span>
+            </div>
+          </td>
+          <td>
+            <span class="role-badge" [ngClass]="{'admin': user.isAdmin, 'user': !user.isAdmin}">
+              {{ user.isAdmin ? 'Administrator' : 'Standard User' }}
+            </span>
+          </td>
+          <td>{{ formatDateTime(user.connectedAt) }}</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="stats" *ngIf="onlineUsers.length > 0">
+      <div class="stat-item">
+        <span class="stat-label">Total Users:</span>
+        <span class="stat-value">{{ onlineUsers.length }}</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Administrators:</span>
+        <span class="stat-value">{{ getAdminCount() }}</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-label">Standard Users:</span>
+        <span class="stat-value">{{ onlineUsers.length - getAdminCount() }}</span>
+      </div>
+    </div>
+  </div>
+</div>

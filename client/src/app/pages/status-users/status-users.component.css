@@ -1,9 +1,11 @@
 .title {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   text-align: center;
   margin-bottom: 20px;
 }
 
 .card-container {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -11,6 +13,7 @@
 }
 
 .user-card {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   border: 1px solid #ccc;
   border-radius: 10px;
   padding: 20px;
@@ -20,6 +23,7 @@
 }
 
 .edit-button {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -44,6 +48,7 @@
 }
 
 .modal-content {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   background: white;
   padding: 30px;
   border-radius: 10px;
@@ -61,6 +66,7 @@
 }
 
 .confirm-button {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   background-color: #28a745;
   color: white;
   border: none;
@@ -70,6 +76,7 @@
 }
 
 .cancel-button {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   background-color: #c77408;
   color: white;
   border: none;
@@ -79,6 +86,7 @@
 }
 
 .delete-button {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   background-color: #dc3545;
   color: white;
   border: none;
@@ -88,6 +96,7 @@
 }
 
 .checkbox-label {
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
   display: flex;
   align-items: center;
   gap: 8px;
