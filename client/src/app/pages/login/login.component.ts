@@ -24,7 +24,7 @@ export class LoginComponent {
         window.location.href = '/';
       },
       error: (err: any) => {
-        alert('פרטי התחברות שגויים');
+        alert('wrong details');
         console.error(err);
       }
     });

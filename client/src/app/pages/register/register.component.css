@@ -45,7 +45,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* רקע כללי */
+
 body, html {
   height: 100%;
   margin: 0;
@@ -62,7 +62,7 @@ body, html {
   justify-content: center;
 }
 
-/* הקופסה של הטופס */
+
 .login-container {
   background-color: rgba(255, 255, 255, 0.95);
   padding: 2rem;
@@ -73,7 +73,7 @@ body, html {
   direction: rtl;
 }
 
-/* שדות */
+
 input, label, button {
   width: 100%;
   display: block;

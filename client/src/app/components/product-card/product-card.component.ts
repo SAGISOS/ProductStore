@@ -21,7 +21,7 @@ export class ProductCardComponent {
   @Input() imageUrl!: string;
   @Output() deleted = new EventEmitter<number>();
 
-  isAdmin: boolean = false;
+  isAdmin = false;
 
   constructor(
     private authService: AuthService,
@@ -35,24 +35,23 @@ export class ProductCardComponent {
     });
   }
 
-  onSubmit(event: Event) {
-    event.stopPropagation(); // מונע את מעבר העמוד במקרה של לחיצה על delete
+  onDelete(event: Event) {
+    event.stopPropagation();
 
-    if (!confirm('האם למחוק מוצר זה?')) return;
+    if (!confirm('Delete this product?')) return;
 
     this.productService.deleteProduct(this.id).subscribe({
       next: () => {
-        alert('המוצר נמחק בהצלחה');
+        alert('Product deleted successfully');
         this.deleted.emit(this.id);
       },
-      error: err => {
-        console.error('שגיאה במחיקה', err);
-        alert('נכשל במחיקה');
+      error: () => {
+        alert('Failed to delete product');
       }
     });
   }
 
-  goToDetails(event: Event) {
+  openDetails(event: Event) {
     this.router.navigate(['/products', this.id]);
   }
 }

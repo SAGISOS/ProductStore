@@ -3,7 +3,7 @@
   align-items: flex-start;
   gap: 2rem;
   padding: 2rem;
-  direction: rtl; /* אם אתה רוצה לשלב עברית בעתיד */
+  direction: rtl;
 }
 
 .product-image {

@@ -1,22 +1,22 @@
 <div class="login-page">
   <div class="login-container">
-    <h2>הרשמה</h2>
+    <h2>sign in</h2>
     <form (ngSubmit)="onSubmit()" #form="ngForm">
-      <label for="userName">שם משתמש</label>
+      <label for="userName">user name</label>
       <input type="text" id="userName" [(ngModel)]="userName" name="userName" required />
 
-      <label for="password">סיסמה</label>
+      <label for="password">password</label>
       <input type="password" id="password" [(ngModel)]="password" name="password" required />
 
-      <label for="Email">אימייל</label>
+      <label for="Email">email</label>
       <input type="Email" id="Email" [(ngModel)]="Email" name="Email" required />
 
-      <label for="Phone">טלפון</label>
+      <label for="Phone">phone</label>
       <input type="text" id="Phone" [(ngModel)]="Phone" name="Phone" required />
 
       <label>
         <input type="checkbox" [(ngModel)]="IsAdmin" name="IsAdmin" />
-        מנהל?
+        admin?
       </label>
 
       <button type="submit" [disabled]="form.invalid">הרשמה</button>

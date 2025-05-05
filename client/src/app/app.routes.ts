@@ -20,7 +20,6 @@ export const routes: Routes = [
       user: UserResolver
     }
   },
-
   {
     path: 'status-users',
     loadComponent: () =>
@@ -58,6 +57,15 @@ export const routes: Routes = [
     path: 'profile-edit',
     loadComponent: () =>
       import('./pages/profile-edit/profile-edit.component').then(m => m.ProfileEditComponent),
+    resolve: {
+      user: UserResolver
+    }
+  },
+  {
+    path: 'online-users',
+    loadComponent: () =>
+      import('./pages/online-users/online-users.component').then(m => m.OnlineUsersComponent),
+    canActivate: [AdminGuard],
     resolve: {
       user: UserResolver
     }

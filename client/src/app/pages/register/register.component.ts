@@ -25,10 +25,11 @@ export class RegisterComponent
     this.authService.register(this.userName, this.password, this.Email, this.Phone, this.IsAdmin).subscribe({
       next: (res: any) => {
         this.authService.saveToken(res.token);
-        window.location.href = '/';
+        alert("success");
+        window.location.href = '/login';
       },
       error: (err: any) => {
-        alert('משתמש קיים או בעייה בהרשמה');
+        alert("try again");
         console.error(err);
       }
     });

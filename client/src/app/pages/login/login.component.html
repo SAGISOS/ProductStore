@@ -1,7 +1,7 @@
 <div class="login-container">
   <h2>התחברות</h2>
   <form (ngSubmit)="onSubmit()" #form="ngForm">
-    <label for="userName">שם משתמש</label>
+    <label for="userName">user name</label>
     <input
       type="text"
       id="userName"
@@ -10,7 +10,7 @@
       required
     />
 
-    <label for="password">סיסמה</label>
+    <label for="password">password</label>
     <input
       type="password"
       id="password"
@@ -19,6 +19,6 @@
       required
     />
 
-    <button type="submit" [disabled]="form.invalid">התחבר</button>
+    <button type="submit" [disabled]="form.invalid">login</button>
   </form>
 </div>

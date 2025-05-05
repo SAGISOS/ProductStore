@@ -7,26 +7,23 @@ import { AuthInterceptor } from './core/interceptors/auth.interceptor';
 export const appConfig: ApplicationConfig = {
   providers: [
     provideHttpClient(withInterceptors([
-      (req, next) => {
-        // קבלת הטוקן מהאחסון המקומי
+      (req, next) => 
+      {
         const token = localStorage.getItem('token');
-        
-        // אם אין טוקן, מעביר את הבקשה כמו שהיא
-        if (!token) {
+
+        if (!token) 
+        {
           return next(req);
         }
-        
-        // יצירת בקשה חדשה עם הטוקן
-        const authReq = req.clone({
-          setHeaders: {
+        const authReq = req.clone(
+        {
+          setHeaders: 
+          {
             Authorization: `Bearer ${token}`
           }
         });
-        
-        // העברת הבקשה המעודכנת
         return next(authReq);
       }
     ])), 
     provideRouter(routes)
-  ]
-};
+  ]};

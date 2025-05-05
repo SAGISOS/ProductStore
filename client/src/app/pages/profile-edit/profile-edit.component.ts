@@ -28,13 +28,13 @@ export class ProfileEditComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    // קבלת המידע שנטען מה-resolver
+
     const resolvedUser = this.route.snapshot.data['user'];
     
     if (resolvedUser) {
       this.user = resolvedUser;
     } else {
-      // במקרה שה-resolver החזיר null, מנסה לטעון את המידע באופן ישיר
+
       const userId = this.authService.getUserId();
       if (!userId) {
         console.error('No user ID found');
@@ -54,7 +54,7 @@ export class ProfileEditComponent implements OnInit {
     this.userService.updateUser(this.user.id, this.user).subscribe({
       next: () => {
         this.successMessage = 'Profile updated successfully!';
-        setTimeout(() => this.successMessage = '', 3000); // נעלם אחרי 3 שניות
+        setTimeout(() => this.successMessage = '', 3000); // 3 SEC 
       },
       error: (err) => {
         console.error('Failed to update user:', err);

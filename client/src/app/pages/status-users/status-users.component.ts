@@ -17,7 +17,7 @@ export class StatusUsersComponent implements OnInit {
 
   constructor(
     private userService: UserService,
-    private router: Router // ✅ זה מה שהיה חסר
+    private router: Router 
   ) {}
 
   ngOnInit(): void {
@@ -65,7 +65,7 @@ export class StatusUsersComponent implements OnInit {
         console.log('User deleted successfully');
         this.users = this.users.filter(u => u.id !== this.selectedUser!.id);
         this.selectedUser = null;
-        this.router.navigate(['/status-users']); // ✅ עובד עכשיו כמו שצריך
+        this.router.navigate(['/status-users']); 
       },
       error: (err: any) => {
         console.error('Delete failed', err);

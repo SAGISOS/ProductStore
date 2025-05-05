@@ -5,7 +5,7 @@
     <h3>{{ user.userName }}</h3>
     <p><strong>Email:</strong> {{ user.email }}</p>
     <p><strong>Phone:</strong> {{ user.phone }}</p>
-    <p><strong>Role:</strong> {{ user.isAdmin ? 'Admin 🛡️' : 'Regular User' }}</p>
+    <p><strong>Role:</strong> {{ user.isAdmin ? 'Admin' : 'Regular User' }}</p>
 
     <div class="card-actions">
       <button (click)="openEdit(user)" class="edit-button">Edit</button>
@@ -13,20 +13,19 @@
   </div>
 </div>
 
-<!-- ✳️ Modal for editing (לא שונה) -->
+
+
+
+
 <div *ngIf="selectedUser" class="modal-overlay">
   <div class="modal-content">
     <h3>Edit User</h3>
-
     <label>Username:</label>
     <input [(ngModel)]="selectedUser.userName" />
-
     <label>Email:</label>
     <input [(ngModel)]="selectedUser.email" type="email" />
-
     <label>Phone:</label>
     <input [(ngModel)]="selectedUser.phone" />
-
     <label class="checkbox-label">
       <input type="checkbox" [(ngModel)]="selectedUser.isAdmin" />
       Admin

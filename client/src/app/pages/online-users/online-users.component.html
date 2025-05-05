@@ -1,0 +1,24 @@
+<div class="online-users-container">
+     <h2>Online Users</h2>
+   
+     <p *ngIf="onlineUsers.length === 0">No users are currently online.</p>
+   
+     <table *ngIf="onlineUsers.length > 0">
+       <thead>
+         <tr>
+           <th>Username</th>
+           <th>Status</th>
+           <th>Connected Since</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr *ngFor="let user of onlineUsers">
+           <td>{{ user.username }}</td>
+           <td>{{ user.isAdmin ? 'Admin' : 'Regular User' }}</td>
+           <td>{{ formatDateTime(user.connectedAt) }}</td>
+         </tr>
+       </tbody>
+     </table>
+   
+     <button (click)="refreshUsers()">Refresh</button>
+   </div>
