@@ -1,0 +1,21 @@
+<div class="profile-edit-container">
+  <h2>Edit Your Profile</h2>
+
+  <form (ngSubmit)="saveProfile()">
+    <label for="username">User name:</label>
+    <input id="username" [(ngModel)]="user.userName" name="userName" required />
+
+    <label for="email">Email:</label>
+    <input id="email" [(ngModel)]="user.email" name="email" type="email" required />
+
+    <label for="phone">Phone:</label>
+    <input id="phone" [(ngModel)]="user.phone" name="phone" type="tel" required />
+
+    <div class="form-actions">
+      <button type="submit" class="save-button">Save</button>
+      <button type="button" (click)="cancel()" class="cancel-button">Cancel</button>
+    </div>
+  </form>
+
+  <p *ngIf="successMessage" class="success-message">{{ successMessage }}</p>
+</div>

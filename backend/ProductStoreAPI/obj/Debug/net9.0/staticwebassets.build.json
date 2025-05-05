@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zMYO1R1kppReARPvZ7jey6LxaBZJc35ZHTZP2lX+mPw=",
+  "Source": "ProductStoreAPI",
+  "BasePath": "_content/ProductStoreAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,32 @@
+<nav class="header-container">
+  <div class="menu-center">
+    <button class="menu-button" routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</button>
+    <button class="menu-button" routerLink="/products" routerLinkActive="active">Products</button>
+    <button *ngIf="isAdmin" class="menu-admin-button" routerLink="/admin-page" routerLinkActive="active">Admin Page</button>
+  </div>
+
+  <div class="menu-right">
+    <ng-container *ngIf="userName; else guest">
+      <span class="welcome-text">Hello {{ userName }}</span>
+
+      <a routerLink="/profile-edit" routerLinkActive="active" class="icon-button" title="Profile">
+        <lord-icon
+          src="assets/system-solid-8-account-hover-account.json"
+          trigger="hover"
+          style="width:32px;height:32px">
+        </lord-icon>
+      </a>
+
+      <button class="logout-button" (click)="logout()">Logout</button>
+    </ng-container>
+
+
+
+
+    <ng-template #guest>
+      <span class="welcome-text">Hello, Guest</span>
+      <button class="login-button" routerLink="/login" routerLinkActive="active">Login</button>
+      <button class="register-button" routerLink="/register" routerLinkActive="active">Register</button>
+    </ng-template>
+  </div>
+</nav>

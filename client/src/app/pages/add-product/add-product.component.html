@@ -1,0 +1,25 @@
+<div class="add-product-container">
+  <h2>Add New Product</h2>
+
+  <form #form="ngForm" (ngSubmit)="onSubmit()">
+    <label for="id">Product ID</label>
+    <input type="number" id="id" [(ngModel)]="product.id" name="id" required />
+
+    <label for="name">Name</label>
+    <input type="text" id="name" [(ngModel)]="product.name" name="name" required />
+
+    <label for="description">Description</label>
+    <textarea id="description" [(ngModel)]="product.description" name="description" required></textarea>
+
+    <label for="price">Price</label>
+    <input type="number" step="0.01" id="price" [(ngModel)]="product.price" name="price" required />
+
+    <label for="stock">Stock</label>
+    <input type="number" id="stock" [(ngModel)]="product.stock" name="stock" required />
+
+    <label for="imageUrl">Image URL</label>
+    <input type="text" id="imageUrl" [(ngModel)]="product.imageUrl" name="imageUrl" />
+
+    <button type="submit" [disabled]="form.invalid">Save</button>
+  </form>
+</div>

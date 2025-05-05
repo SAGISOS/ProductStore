@@ -1,0 +1,417 @@
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/appsettings.Development.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/appsettings.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.staticwebassets.endpoints.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.deps.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.runtimeconfig.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.pdb
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.csproj.AssemblyReference.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.AssemblyInfoInputs.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.AssemblyInfo.cs
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.csproj.CoreCompileInputs.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/scopedcss/bundle/ProductStoreAPI.styles.css
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.build.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.development.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.ProductStoreAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.ProductStoreAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.build.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductS.CDD3E020.Up2Date
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/refint/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.pdb
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.genruntimeconfig.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/obj/Debug/net9.0/ref/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Humanizer.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/MySqlConnector.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/System.CodeDom.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/backend/ProductStoreAPI/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/appsettings.Development.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/appsettings.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.staticwebassets.endpoints.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.deps.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.runtimeconfig.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.pdb
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Humanizer.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/MySqlConnector.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/System.CodeDom.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.csproj.AssemblyReference.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.AssemblyInfoInputs.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.AssemblyInfo.cs
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.csproj.CoreCompileInputs.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/scopedcss/bundle/ProductStoreAPI.styles.css
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.build.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.development.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.ProductStoreAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.ProductStoreAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.build.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductS.CDD3E020.Up2Date
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/refint/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.pdb
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.genruntimeconfig.cache
+/Users/sagiakshikar/Documents/projects/IDF/Shop/ארכיון 2/backend/ProductStoreAPI/obj/Debug/net9.0/ref/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/appsettings.Development.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/appsettings.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.staticwebassets.endpoints.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.deps.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.runtimeconfig.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ProductStoreAPI.pdb
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Humanizer.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Build.Locator.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Microsoft.OpenApi.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Mono.TextTemplating.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/MySqlConnector.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Pomelo.EntityFrameworkCore.MySql.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/System.CodeDom.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.AttributedModel.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Convention.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Hosting.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.Runtime.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/System.Composition.TypedParts.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.csproj.AssemblyReference.cache
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.AssemblyInfoInputs.cache
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.AssemblyInfo.cs
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.csproj.CoreCompileInputs.cache
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.sourcelink.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/scopedcss/bundle/ProductStoreAPI.styles.css
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.build.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.development.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.ProductStoreAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.ProductStoreAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.build.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.ProductStoreAPI.props
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductS.CDD3E020.Up2Date
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/refint/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.pdb
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ProductStoreAPI.genruntimeconfig.cache
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/obj/Debug/net9.0/ref/ProductStoreAPI.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/sagiakshikar/Documents/projects/IDF/ProductStore/ProductStore/backend/ProductStoreAPI/bin/Debug/net9.0/System.Net.WebSockets.WebSocketProtocol.dll

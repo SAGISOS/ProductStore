@@ -1,0 +1,175 @@
+.online-users-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+.content-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.card-header h2 {
+  margin: 0;
+  color: #495057;
+  font-size: 1.4rem;
+}
+
+.refresh-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.refresh-btn:hover {
+  background-color: #0069d9;
+}
+
+.refresh-icon {
+  font-style: normal;
+  font-size: 1.1rem;
+}
+
+.no-users {
+  padding: 3rem 2rem;
+}
+
+.empty-state {
+  text-align: center;
+  color: #6c757d;
+}
+
+.empty-icon {
+  font-style: normal;
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.empty-hint {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: #adb5bd;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th {
+  padding: 1rem 1.5rem;
+  background-color: #f8f9fa;
+  color: #495057;
+  font-weight: 600;
+  text-align: left;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.users-table td {
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e9ecef;
+  color: #495057;
+}
+
+.users-table tr:hover {
+  background-color: #f8f9fa;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.role-badge {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.role-badge.admin {
+  background-color: #ffecb3;
+  color: #ff9800;
+}
+
+.role-badge.user {
+  background-color: #e3f2fd;
+  color: #2196f3;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f8f9fa;
+  padding: 1.2rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-label {
+  display: block;
+  color: #6c757d;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+}
+
+.stat-value {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #495057;
+}

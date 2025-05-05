@@ -1,0 +1,22 @@
+<div class="product-card" (click)="openDetails($event)">
+  <img [src]="imageUrl" alt="Product Image" class="product-image" />
+  <h3>{{ name }}</h3>
+  <p class="description">{{ description }}</p>
+  <p class="price">Price: ${{ price }}</p>
+  <p class="stock">In stock: {{ stock }}</p>
+  <p class="id">Id: {{ id }}</p>
+
+  <button
+    *ngIf="isAdmin"
+    class="delete-button"
+    (click)="onDelete($event)"
+    title="delete"
+  >
+    <lord-icon
+      src="../../assets/system-regular-39-trash-hover-trash-empty.json"
+      trigger="hover"
+      style="width:28px;height:28px"
+    >
+    </lord-icon>
+  </button>
+</div>
