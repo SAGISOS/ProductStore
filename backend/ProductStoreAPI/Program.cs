@@ -7,18 +7,18 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-// הוספת שירות ה-DbContext
+// חיבור למסד נתונים
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(
         builder.Configuration.GetConnectionString("DefaultConnection"),
         ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
     ));
 
-// הגדרת מדיניות הרשאות
+// הגדרת הרשאות
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("Admin", policy =>
@@ -28,41 +28,39 @@ builder.Services.AddAuthorization(options =>
         policy.RequireAuthenticatedUser());
 });
 
-// הגדרת JWT Authentication
+// אוטנטיקציה
+var jwtSettings = builder.Configuration.GetSection("Jwt");
+
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
     .AddJwtBearer(options =>
     {
+        var key = Encoding.UTF8.GetBytes(jwtSettings["Key"] ?? throw new("Missing JWT Key"));
+
         options.TokenValidationParameters = new TokenValidationParameters
         {
             ValidateIssuer = true,
             ValidateAudience = true,
             ValidateLifetime = true,
             ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["Jwt:Issuer"] ?? throw new InvalidOperationException("JWT Issuer not configured"),
-            ValidAudience = builder.Configuration["Jwt:Audience"] ?? throw new InvalidOperationException("JWT Audience not configured"),
-            IssuerSigningKey = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(
-                    builder.Configuration["Jwt:Key"] ?? throw new InvalidOperationException("JWT Key not configured")
-                )
-            )
+
+            ValidIssuer = jwtSettings["Issuer"] ?? throw new("Missing JWT Issuer"),
+            ValidAudience = jwtSettings["Audience"] ?? throw new("Missing JWT Audience"),
+            IssuerSigningKey = new SymmetricSecurityKey(key)
         };
     });
 
 var app = builder.Build();
-
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
 }
 
-// 🟢 CORS לפני כל Middleware אחר
+
 app.UseCors(x => x
     .AllowAnyOrigin()
     .AllowAnyMethod()
     .AllowAnyHeader());
 
-// ❌ לא חובה בשלב הפיתוח – ולכן מוסר את ההפניה ל-HTTPS
-// app.UseHttpsRedirection(); ← הערה או מחיקה
 
 app.UseAuthentication();
 app.UseAuthorization();

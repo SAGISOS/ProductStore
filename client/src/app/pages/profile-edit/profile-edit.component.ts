@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { UserService, User } from '../../core/services/user.service';
 import { AuthService } from '../../core/services/auth.service';
 
@@ -21,19 +21,31 @@ export class ProfileEditComponent implements OnInit {
     isAdmin: false
   };
 
-  constructor(private userService: UserService, private authService: AuthService) {}
+  constructor(
+    private userService: UserService, 
+    private authService: AuthService,
+    private route: ActivatedRoute
+  ) {}
 
   ngOnInit(): void {
-    const userId = this.authService.getUserId();
-    if (!userId) {
-      console.error('No user ID found');
-      return;
-    }
+    // קבלת המידע שנטען מה-resolver
+    const resolvedUser = this.route.snapshot.data['user'];
+    
+    if (resolvedUser) {
+      this.user = resolvedUser;
+    } else {
+      // במקרה שה-resolver החזיר null, מנסה לטעון את המידע באופן ישיר
+      const userId = this.authService.getUserId();
+      if (!userId) {
+        console.error('No user ID found');
+        return;
+      }
 
-    this.userService.getUserById(userId).subscribe({
-      next: (data) => this.user = data,
-      error: (err) => console.error('Failed to fetch user:', err)
-    });
+      this.userService.getUserById(userId).subscribe({
+        next: (data) => this.user = data,
+        error: (err) => console.error('Failed to fetch user:', err)
+      });
+    }
   }
 
   successMessage: string = '';

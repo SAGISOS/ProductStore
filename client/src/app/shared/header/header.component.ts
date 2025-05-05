@@ -9,7 +9,7 @@ import { AuthService } from '../../core/services/auth.service';
   imports: [CommonModule, RouterModule],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA] 
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class HeaderComponent implements OnInit {
   userName: string | null = null;
@@ -17,7 +17,8 @@ export class HeaderComponent implements OnInit {
 
   constructor(private authService: AuthService) {}
 
-  ngOnInit() {
+  ngOnInit()
+  {
     this.authService.userName$.subscribe(name => {
       this.userName = name;
     });
@@ -27,7 +28,8 @@ export class HeaderComponent implements OnInit {
     });
   }
 
-  logout() {
+  logout()
+  {
     this.authService.logout();
   }
 }

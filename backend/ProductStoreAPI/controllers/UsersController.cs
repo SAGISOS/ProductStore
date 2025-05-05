@@ -20,7 +20,7 @@ public class UsersController : ControllerBase
         _configuration = configuration;
     }
 
-    // התחברות - פתוח לכולם
+    // login
     [HttpPost("login")]
     [AllowAnonymous]
     public IActionResult Login([FromBody] LoginModel model)
@@ -35,7 +35,7 @@ public class UsersController : ControllerBase
         return Ok(new { token });
     }
 
-    // קבלת כל המשתמשים - רק למנהל
+    // get all users
     [HttpGet]
     [Authorize(Policy = "Admin")]
     public IActionResult GetAll()
@@ -43,7 +43,7 @@ public class UsersController : ControllerBase
         return Ok(_context.Users.ToList());
     }
 
-    // קבלת משתמש לפי מזהה - רק למנהל
+    // get user by id
     [HttpGet("{id}")]
     [Authorize(Policy = "Admin")]
     public IActionResult GetById(int id)
@@ -55,7 +55,7 @@ public class UsersController : ControllerBase
         return Ok(user);
     }
 
-    // מחיקת משתמש - רק למנהל
+    // del user
     [HttpDelete("{id}")]
     [Authorize(Policy = "Admin")]
     public IActionResult Delete(int id)
@@ -69,7 +69,7 @@ public class UsersController : ControllerBase
         return NoContent();
     }
 
-    // הרשמה - פתוח לכולם
+    // sing in
     [HttpPost("register")]
     [AllowAnonymous]
     public IActionResult Register(User user)
@@ -79,12 +79,11 @@ public class UsersController : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = user.Id }, user);
     }
 
-    // עדכון משתמש - למשתמש רשום (על עצמו) או מנהל
+    // update user
     [HttpPut("{id}")]
     [Authorize(Policy = "RegisteredUser")]
     public IActionResult Update(int id, User updatedUser)
     {
-        // בדיקה שהמשתמש מעדכן את עצמו או שהוא מנהל
         if (!User.HasClaim("IsAdmin", "true") &&
             !User.HasClaim(ClaimTypes.NameIdentifier, id.ToString()))
             return Forbid();
@@ -97,7 +96,6 @@ public class UsersController : ControllerBase
         user.Email = updatedUser.Email;
         user.Phone = updatedUser.Phone;
 
-        // רק מנהל יכול לשנות הרשאות
         if (User.HasClaim("IsAdmin", "true"))
         {
             user.IsAdmin = updatedUser.IsAdmin;
@@ -105,30 +103,6 @@ public class UsersController : ControllerBase
 
         _context.SaveChanges();
         return NoContent();
-    }
-
-    // חיפוש משתמש לפי שם - רק למנהל
-    [HttpGet("search/{username}")]
-    [Authorize(Policy = "Admin")]
-    public IActionResult SearchByUsername(string username)
-    {
-        var users = _context.Users
-            .Where(u => u.UserName.Contains(username))
-            .ToList();
-        return Ok(users);
-    }
-
-    // חיפוש משתמש לפי אימייל - רק למנהל
-    [HttpGet("email/{email}")]
-    [Authorize(Policy = "Admin")]
-    public IActionResult SearchByEmail(string email)
-    {
-        var user = _context.Users
-            .FirstOrDefault(u => u.Email == email);
-        if (user == null)
-            return NotFound();
-
-        return Ok(user);
     }
 
     private string GenerateJwtToken(User user)
@@ -141,7 +115,7 @@ public class UsersController : ControllerBase
         };
 
         var jwtKey = _configuration["Jwt:Key"] ??
-            throw new InvalidOperationException("JWT Key not configured");
+            throw new InvalidOperationException("Key not configured");
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);

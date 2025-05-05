@@ -14,7 +14,7 @@ public class ProductsController : ControllerBase
         _context = context;
     }
 
-    // קבלת כל המוצרים - פתוח לכולם
+    // get all prodects
     [HttpGet]
     [AllowAnonymous]
     public IActionResult GetAll()
@@ -22,7 +22,7 @@ public class ProductsController : ControllerBase
         return Ok(_context.Products.ToList());
     }
 
-    // קבלת מוצר לפי מזהה - פתוח לכולם
+    // get product by ID
     [HttpGet("{id}")]
     [AllowAnonymous]
     public IActionResult GetById(int id)
@@ -34,14 +34,16 @@ public class ProductsController : ControllerBase
         return Ok(product);
     }
 
-    // מחיקת מוצר לפי מזהה - רק למנהל
+    // del product
     [HttpDelete("{id}")]
     [Authorize(Policy = "Admin")]
     public IActionResult Delete(int id)
     {
         var product = _context.Products.Find(id);
         if (product == null)
-            return NotFound();
+        {
+          return NotFound();
+        }
 
         _context.Products.Remove(product);
         _context.SaveChanges();
@@ -49,35 +51,37 @@ public class ProductsController : ControllerBase
     }
 
 
-    // יצירת מוצר חדש - רק למנהל
+    // create new product
     [HttpPost]
     [Authorize(Policy = "Admin")]
     public IActionResult Create([FromBody] Product product)
     {
         if (!ModelState.IsValid)
-            return BadRequest(ModelState);
+        {
+          return BadRequest(ModelState);
+        }
 
-        // הגדרת URL ברירת מחדל אם לא נשלח
+        // defult
         if (string.IsNullOrWhiteSpace(product.ImageUrl))
         {
             product.ImageUrl = "https://islandpress.org/files/default_book_cover_2015.jpg";
         }
-
-        Console.WriteLine("ImageUrl received: " + product.ImageUrl);
         _context.Products.Add(product);
         _context.SaveChanges();
 
         return CreatedAtAction(nameof(GetById), new { id = product.Id }, product);
     }
 
-    // עדכון מוצר - רק למנהל
+    // update product
     [HttpPut("{id}")]
     [Authorize(Policy = "Admin")]
     public IActionResult Update(int id, [FromBody] Product updatedProduct)
     {
         var product = _context.Products.Find(id);
         if (product == null)
-            return NotFound();
+        {
+          return NotFound();
+        }
 
         product.Name = updatedProduct.Name;
         product.Description = updatedProduct.Description;

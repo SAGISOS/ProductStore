@@ -7,9 +7,8 @@
 
   <div class="menu-right">
     <ng-container *ngIf="userName; else guest">
-      <span class="welcome-text">Hello, {{ userName }}</span>
+      <span class="welcome-text">Hello {{ userName }}</span>
 
-      <!-- Profile Icon -->
       <a routerLink="/profile-edit" routerLinkActive="active" class="icon-button" title="Profile">
         <lord-icon
           src="assets/system-solid-8-account-hover-account.json"
